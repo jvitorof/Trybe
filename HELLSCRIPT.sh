@@ -18,7 +18,7 @@ else
                 then
                     read -p "Digite o número INICIAL da pasta do BLOCO a ser criado: " IBLOCO
                     read -p "Digite o número FINAL da pasta do BLOCO a ser criado: " FBLOCO
-                    read -p "Digite o número de AULAS nos BLOCOS: " NAULAS
+                    read -p "Digite o número de(da) AULA(S) no(s) BLOCO(S): " NAULAS
                     read -p "Criar SCRIPTS nas pastas das AULAS? S/N: " SIM
                     for ((cont=$IBLOCO; cont<=$FBLOCO; cont++)); 
                         do 
