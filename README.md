@@ -1,4 +1,4 @@
-# Trybe
+# Trybe :white_check_mark:
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[João Vitor Osório Flores - Jota-T007](https://github.com/jvitorof/Trybe)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -6,11 +6,11 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Introdução - Desenvolvimento Web :white_check_mark:
+## Introdução - Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [ ] 1-3: _Unix & Bash - Part 1_
+- [x] 1-3: _Unix & Bash - Part 1_
 - [ ] 1-4: _Unix & Bash - Part 2_
 - [ ] 1-5: _Shell Script_
 
@@ -48,7 +48,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end 
 
 ##### Bloco 6: Introdução - Front-end
 
