@@ -32,9 +32,24 @@ else
                                 cd "Aula-$BLOCO.$N/"
                                 if [ 'S' = $SIM ] || [ 's' = $SIM ] || [ 'sim' = $SIM ] || [ 'SIM' = $SIM ]
                                     then
-                                        # utilizei o manual do comando ECHO para que ele realizasse a leitura dos caracteres especiais, como ASPAS, TAB, QLINHA...
-                                        echo -e "#!/bin/bash\nread -p \"Número de exercícios: \" N\nfor ((cont=1; cont<=N; cont++))\n\tdo\n\t\techo \"#!bin/bash\" > \"Exercicio-\$cont.sh\"\n\tdone\nfor ((cont=1; cont<=N; cont++))\n\tdo\n\t\tchmod a+rwx \"Exercicio-\$cont.sh\"\n\tdone" > "SHSC.AULA-$BLOCO.$N.sh"                
-                                        chmod a+rwx "SHSC.AULA-$BLOCO.$N.sh"
+                                        
+                                        cat > "shsc.aula-$BLOCO.$N.sh" <<EOT
+#!/bin/bash
+read -p "NOME dos arquivos a serem criados: " NOME
+read -p "EXTENSÃO dos arquivos a serem ciados: " EXT
+read -p "Número de exercícios: " N
+for ((cont=1; cont<=N; cont++))
+	do
+		touch "$NOME-$cont.$EXT"
+	done
+for ((cont=1; cont<=N; cont++))
+	do
+		chmod a+rwx "$NOME-$cont.$EXT"
+	done
+EOT
+                                        
+                                                                                
+                                        chmod a+rwx "shsc.aula-$BLOCO.$N.sh"
                                 else
                                     echo "sem script na Aula-$BLOCO.$N. Ñcookies4u!"
                                 fi
