@@ -1,0 +1,35 @@
+Arquitetura:                     x86_64
+Modo(s) operacional da CPU:      32-bit, 64-bit
+Ordem dos bytes:                 Little Endian
+Address sizes:                   36 bits physical, 48 bits virtual
+CPU(s):                          2
+Lista de CPU(s) on-line:         0,1
+Thread(s) per núcleo:            1
+Núcleo(s) por soquete:           2
+Soquete(s):                      1
+Nó(s) de NUMA:                   1
+ID de fornecedor:                GenuineIntel
+Família da CPU:                  6
+Modelo:                          23
+Nome do modelo:                  Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+Step:                            10
+Frequency boost:                 enabled
+CPU MHz:                         2551.715
+CPU MHz máx.:                    2534,0000
+CPU MHz mín.:                    800,0000
+BogoMIPS:                        5053.68
+Virtualização:                   VT-x
+cache de L1d:                    64 KiB
+cache de L1i:                    64 KiB
+cache de L2:                     3 MiB
+CPU(s) de nó0 NUMA:              0,1
+Vulnerability Itlb multihit:     KVM: Vulnerable
+Vulnerability L1tf:              Mitigation; PTE Inversion
+Vulnerability Mds:               Vulnerable: Clear CPU buffers attempted, no microcode; SMT disabled
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Vulnerable
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, STIBP disabled, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Opções:                          fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti tpr_shadow vnmi flexpriority dtherm ida
