@@ -32,20 +32,20 @@ else
                                 cd "Aula-$BLOCO.$N/"
                                 if [ 'S' = $SIM ] || [ 's' = $SIM ] || [ 'sim' = $SIM ] || [ 'SIM' = $SIM ]
                                     then
-                                        
-                                        cat > "shsc.aula-$BLOCO.$N.sh" <<EOT
+                                        cat > "shsc.aula-$BLOCO.$N.sh" << EOT
 #!/bin/bash
-read -p "NOME dos arquivos a serem criados: " NOME
-read -p "EXTENSÃO dos arquivos a serem ciados: " EXT
+read -p "nome dos arquivos a serem criados: " NOME
+read -p "extesão dos arquivos a serem ciados: " EXT
 read -p "Número de exercícios: " N
 for ((cont=1; cont<=N; cont++))
 	do
-		touch "$NOME-$cont.$EXT"
+		touch "\${NOME}-\${cont}.\${EXT}"
 	done
 for ((cont=1; cont<=N; cont++))
 	do
-		chmod a+rwx "$NOME-$cont.$EXT"
+		chmod a+rwx "\${NOME}-\${cont}.\${EXT}"
 	done
+
 EOT
                                         
                                                                                 
